@@ -1,6 +1,6 @@
 'use client';
 
-import { Sparkles, Grid3x3, BookOpen, Heart } from 'lucide-react';
+import { Sparkles, LayoutGrid, BookOpen, Heart } from 'lucide-react';
 
 export default function Services() {
   const services = [
@@ -11,7 +11,7 @@ export default function Services() {
       highlight: 'New arrivals weekly'
     },
     {
-      icon: Grid3x3,
+      icon: LayoutGrid,
       title: 'Smart Filtering',
       description: 'Navigate effortlessly through women\'s wear, accessories, shoes, and bags with intuitive categories.',
       highlight: 'Find your perfect piece'
